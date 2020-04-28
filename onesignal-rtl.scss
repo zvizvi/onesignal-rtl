@@ -1,0 +1,28 @@
+html[dir=rtl] {
+  #onesignal-popover-container {
+    #onesignal-popover-dialog {
+      direction: rtl;
+
+      .popover-body-message {
+        padding: 0 1.286em 0 0.2em;
+      }
+
+      .popover-body-icon {
+        float: right;
+      }
+
+      .popover-footer {
+        margin: 0.25em 0 0 0.25em;
+      }
+
+      .align-right {
+        float: left;
+      }
+
+      .primary.popover-button + .secondary.popover-button {
+        margin-right: auto;
+        margin-left: 0.714em;
+      }
+    }
+  }
+}
